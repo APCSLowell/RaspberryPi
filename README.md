@@ -5,11 +5,11 @@ The Raspberry Pi is very small computer that you can use to build projects that 
 
 Blinking LED
 ---------------
-Our first project will be to create a circuit with a single LED. First, create a test circuit like the one shown on slides 12 and 13 to check that your breadboard is powered. Then move the jumper from the + power rail so that it connects to pin 4. Open Processing and find the SimpleOutput program in File | Examples | Libraries | Hardware I/O. Show your instructor when you have your blinking LED working. If you have extra time, try connecting the jumper to pin 17 and rewriting the program to work from that pin. 
+Our first project will be to create a circuit with a single LED. First, create a test circuit like the one shown on slides 12 and 13 to check that your breadboard is powered. Then move the jumper from the + power rail so that it connects to pin 4. Open Processing and find the SimpleOutput program in *File | Examples | Libraries | Hardware I/O*. Show your instructor when you have your blinking LED working. If you have extra time, try connecting the jumper to pin 17 and rewriting the program to work from that pin. 
 
 Multiple LEDs that blink in a random pattern
 ---------------
-You will create a circuit with at least 4 LEDs. Any pin marked with green on slide 11 can be used for output (e.g. 17, 18, 22, 24, 27). Your working program should store the 4 output pin numbers in an array. In setup() set the pin mode of each of the pins you choose to output. In draw(), randomly choose a pin using Math.random(). When you have your program working, call your instructor over to show him.
+You will create a circuit with at least 4 LEDs. Any pin marked with green on slide 11 can be used for output (e.g. 17, 18, 22, 24, 27). Your working program should store the 4 output pin numbers in an array. In `setup()` set the pin mode of each of the pins you choose to output. In `draw()`, randomly choose a pin using `Math.random()`. When you have your program working, call your instructor over to show him.
 
 Multiple LEDs that are controlled by buttons
 ------------------
