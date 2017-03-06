@@ -9,7 +9,7 @@ Our first project will be to create a circuit with a single LED. First, create a
 
 Multiple LEDs that blink in a random pattern
 ---------------
-You will create a circuit with at least 4 LEDs. Any pin marked with green on slide 11 can be used for output (e.g. 17, 18, 22, 24, 27). Your working program should store the 4 output pin numbers in an array. In `setup()` set the pin mode of each of the pins you choose to output. In `draw()`, randomly choose a pin using `Math.random()`. When you have your program working, call your instructor over to show him.
+You will create a circuit with at least 4 LEDs. Any pin marked with green on slide 11 can be used for output (e.g. 17, 18, 22, 24, 27). Your working program should store the 4 output pin numbers in an array. In `setup()` set the pin mode of each of the pins you choose to output. In `draw()`, randomly choose a pin using `Math.random()`. See slide 20 for a sample program. When you have your program working, call your instructor over to show him.
 
 Multiple LEDs that are controlled by buttons
 ------------------
