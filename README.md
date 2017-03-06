@@ -13,7 +13,7 @@ You will create a circuit with at least 4 LEDs. Any pin marked with green on sli
 
 Multiple LEDs that are controlled by buttons
 ------------------
-You will create a circuit with at least 2 LEDs and 2 buttons. You will then write a program that allows a user to turn the LEDs on and off with the buttons. More details to come
+You will create a circuit with at least 2 LEDs and 2 buttons. You will then write a program that allows a user to turn the LEDs on and off with the buttons. First, just connect one button. Connect the button to pin 4 and -. To test the circuit, run the SimpleInput program. Pressing the button should change the fill of the ellipse. Now add an LED that connects to - through a 220 Ohm resistor. The + lead on the LED should connect to a different pin like 17. Add code so that if `GPIO.digitalRead(4)` is High, then set `GPIO.digitalWrite(17,GPIO.HIGH)`. Add another button, LED and resistor. Call your instructor over to see the working circuit.
 
 Control an animation with a photo resistor
 ------------------
