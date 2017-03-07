@@ -11,10 +11,10 @@ Multiple LEDs that blink in a random pattern
 ---------------
 You will create a circuit with at least 4 LEDs. Any pin marked with green on slide 11 can be used for output (e.g. 17, 18, 22, 24, 27). Your working program should store the 4 output pin numbers in an array. In `setup()` set the pin mode of each of the pins you choose to output. In `draw()`, randomly choose a pin using `Math.random()`. See slides 20 - 21 for a sample circuit and program. When you have your program working, call your instructor over to show him.
 
-Multiple LEDs that are controlled by buttons
+LEDs that are controlled by buttons
 ------------------
 You will create a circuit with at least 2 LEDs and 2 buttons. You will then write a program that allows a user to turn the LEDs on and off with the buttons. First, just connect one button. Connect the button to pin 4 and -. To test the circuit, run the SimpleInput program. Pressing the button should change the fill of the ellipse. Now add an LED that connects to - through a 220 Ohm resistor. The + lead on the LED should connect to a different pin like 17. Add code so that if `GPIO.digitalRead(4)` is High, then set `GPIO.digitalWrite(17,GPIO.HIGH)`. Add another button, LED and resistor. Call your instructor over to see the working circuit.
 
-Control an animation with a photo resistor
+Move a circle by casting a shadow on a photo resistor
 ------------------
-You will create a circuit with photo resistor. You will then write a program using the Processing's `map()` function that takes input from the photo resistor to control an animation on the computer screen. More details to come
+You will create a circuit with photo resistor and a capacitor. The capacitor connects from - power rail to one lead of the photoresitor. That same lead of the photoresistor will also connect to pin 4. The other lead of the photoresitor connects to 3.3V + on the power rail. The photoresistor senses the amount of light that reaches it. The capacitor charges like a battery. We’ll measure how long it takes to charge the capacitor and that will tell us how much light is reaching the photoresistor. You can find some sample code on slide 30 of the PowerPoint. Call your instructor over to see the working circuit.
